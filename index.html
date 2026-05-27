@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>World Cup 2026</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/layout.css">
+  <link rel="stylesheet" href="styles/components.css">
+  <link rel="stylesheet" href="styles/responsive.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="logo">🏆 World Cup 2026</div>
+
+    <div class="nav-buttons">
+      <button onclick="scrollTo('groups')">Groups</button>
+      <button onclick="scrollTo('calendar')">Calendar</button>
+      <button onclick="goBracket()">Bracket</button>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <section id="groups">
+      <h2>Groups</h2>
+      <div id="groupsGrid" class="grid"></div>
+    </section>
+
+    <button class="big-button" onclick="goBracket()">
+      Open Knockout Bracket
+    </button>
+
+  </div>
+  <script type="module" src="app/app.js"></script>
+</body>
+</html>

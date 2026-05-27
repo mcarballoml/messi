@@ -1,0 +1,123 @@
+/*
+========================================
+COMPONENTS
+- cards
+- botones
+- badges
+- matches
+- flags
+========================================
+*/
+
+/* BUTTON */
+button {
+  margin-left: 8px;
+  padding: 10px 14px;
+
+  background: #1e293b;
+  border: 3px solid #334155;
+  color: white;
+
+  cursor: pointer;
+  transition: 0.15s;
+
+  box-shadow: 4px 4px 0px #020617;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+/* CARD grupo */
+.card {
+  background: #1e293b;
+  padding: 18px;
+  border: 4px solid #334155;
+  box-shadow: 6px 6px 0px #020617;
+}
+
+.card h3 {
+  margin: 0 0 12px 0;
+  font-size: 16px;
+}
+
+/* TEAMS */
+.teams {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* FLAGS */
+.flag {
+  width: 28px;
+  height: 20px;
+  object-fit: cover;
+  border: 2px solid #475569;
+  image-rendering: pixelated;
+}
+
+/* BADGE */
+.badge {
+  background: #2563eb;
+  padding: 8px 10px;
+  border: 3px solid #60a5fa;
+  font-size: 10px;
+  box-shadow: 3px 3px 0px #1e3a8a;
+}
+
+/* MATCH */
+.content {
+  display: none;
+  margin-top: 16px;
+}
+
+.content.open {
+  display: block;
+}
+
+.match-row {
+  background: #0f172a;
+  padding: 12px;
+  margin-top: 10px;
+  border: 2px solid #334155;
+}
+
+.match-teams {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.match-time {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-top: 8px;
+}
+
+/* CALENDAR DAY */
+.calendar-day {
+  margin-bottom: 16px;
+  padding: 16px;
+  background: #1e293b;
+  border: 3px solid #334155;
+  box-shadow: 4px 4px 0px #020617;
+}
+
+/* CTA */
+.big-button {
+  width: 100%;
+  margin-top: 24px;
+  padding: 22px;
+  font-size: 14px;
+
+  background: linear-gradient(90deg, #2563eb, #7c3aed);
+  border: 4px solid #8b5cf6;
+  box-shadow: 6px 6px 0px #2e1065;
+}

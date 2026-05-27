@@ -1,0 +1,81 @@
+/*
+========================================================
+BASE STYLES
+========================================================
+
+OBJETIVO:
+- Definir identidad global del sitio
+- NO manejar layout (eso va en layout.css)
+- NO manejar componentes (cards, botones, etc)
+- SOLO reglas globales
+
+ACÁ VA:
+✔ reset básico
+✔ colores base
+✔ tipografías globales
+✔ estilos globales de texto
+✔ variables (si las usás acá)
+========================================================
+*/
+
+/* -------------------------------
+   1. RESET / BASE
+-------------------------------- */
+body {
+  margin: 0;
+  background: #0f172a;
+  color: white;
+
+  /* tipografía base fallback */
+  font-family: Arial, sans-serif;
+}
+
+/* -------------------------------
+   2. TIPOGRAFÍA GLOBAL PIXEL
+--------------------------------
+
+IMPORTANTE:
+Esto aplica SOLO a elementos “UI principales”.
+No uses esto para todo el body porque rompe legibilidad.
+*/
+
+.logo,
+h2,
+h3,
+button {
+  font-family: 'Press Start 2P', cursive;
+}
+
+/* -------------------------------
+   3. LOGO (caso especial global)
+--------------------------------
+
+El logo NO es componente complejo,
+pero tampoco es “texto común”.
+Lo tratamos como identidad del sitio.
+*/
+
+.logo {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  /* evita que se vea aplastado en topbar */
+  line-height: 1;
+}
+
+/* -------------------------------
+   4. REGLAS GLOBALES FUTURAS (placeholder)
+--------------------------------
+
+Acá podés agregar cosas como:
+- variables CSS
+- dark mode base
+- selection color
+*/
+
+::selection {
+  background: var(--primary);
+  color: white;
+}

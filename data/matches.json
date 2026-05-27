@@ -1,0 +1,89 @@
+[
+{ "group": "A", "home": "MEX", "away": "RSA", "date": "2026-06-11T15:00:00-04:00", "stadium": "Estadio Ciudad de México" },
+{ "group": "A", "home": "KOR", "away": "CZE", "date": "2026-06-11T22:00:00-04:00", "stadium": "Estadio Guadalajara" },
+{ "group": "B", "home": "CAN", "away": "BIH", "date": "2026-06-12T15:00:00-04:00", "stadium": "Estadio Toronto" },
+{ "group": "D", "home": "USA", "away": "PAR", "date": "2026-06-12T21:00:00-04:00", "stadium": "Estadio Los Ángeles" },
+{ "group": "B", "home": "QAT", "away": "SUI", "date": "2026-06-13T15:00:00-04:00", "stadium": "Estadio Bahía de San Francisco" },
+{ "group": "C", "home": "BRA", "away": "MAR", "date": "2026-06-13T18:00:00-04:00", "stadium": "Estadio Nueva York Nueva Jersey" },
+{ "group": "C", "home": "HAI", "away": "SCO", "date": "2026-06-13T21:00:00-04:00", "stadium": "Estadio Boston" },
+{ "group": "D", "home": "AUS", "away": "TUR", "date": "2026-06-13T00:00:00-04:00", "stadium": "Estadio BC Place Vancouver" },
+
+{ "group": "E", "home": "GER", "away": "CUW", "date": "2026-06-14T13:00:00-04:00", "stadium": "Estadio Houston" },
+{ "group": "F", "home": "NED", "away": "JAP", "date": "2026-06-14T16:00:00-04:00", "stadium": "Estadio Dallas" },
+{ "group": "E", "home": "CIV", "away": "ECU", "date": "2026-06-14T19:00:00-04:00", "stadium": "Estadio Filadelfia" },
+{ "group": "F", "home": "SWE", "away": "TUN", "date": "2026-06-14T22:00:00-04:00", "stadium": "Estadio Monterrey" },
+
+{ "group": "H", "home": "ESP", "away": "CPV", "date": "2026-06-15T12:00:00-04:00", "stadium": "Estadio Atlanta" },
+{ "group": "G", "home": "BEL", "away": "EGY", "date": "2026-06-15T15:00:00-04:00", "stadium": "Estadio Seattle" },
+{ "group": "H", "home": "KSA", "away": "URU", "date": "2026-06-15T18:00:00-04:00", "stadium": "Estadio Miami" },
+{ "group": "G", "home": "IRN", "away": "NZL", "date": "2026-06-15T21:00:00-04:00", "stadium": "Estadio Los Ángeles" },
+
+{ "group": "I", "home": "FRA", "away": "SEN", "date": "2026-06-16T15:00:00-04:00", "stadium": "Estadio Nueva York Nueva Jersey" },
+{ "group": "I", "home": "IRQ", "away": "NOR", "date": "2026-06-16T18:00:00-04:00", "stadium": "Estadio Boston" },
+{ "group": "J", "home": "ARG", "away": "ALG", "date": "2026-06-16T21:00:00-04:00", "stadium": "Estadio Kansas City" },
+{ "group": "J", "home": "AUT", "away": "JOR", "date": "2026-06-16T00:00:00-04:00", "stadium": "Estadio Bahía de San Francisco" },
+
+{ "group": "K", "home": "POR", "away": "COD", "date": "2026-06-17T13:00:00-04:00", "stadium": "Estadio Houston" },
+{ "group": "L", "home": "ENG", "away": "CRO", "date": "2026-06-17T16:00:00-04:00", "stadium": "Estadio Dallas" },
+{ "group": "L", "home": "GHA", "away": "PAN", "date": "2026-06-17T19:00:00-04:00", "stadium": "Estadio Toronto" },
+{ "group": "K", "home": "UZB", "away": "COL", "date": "2026-06-17T22:00:00-04:00", "stadium": "Estadio Ciudad de México" },
+
+{ "group": "A", "home": "CZE", "away": "RSA", "date": "2026-06-18T12:00:00-04:00", "stadium": "Estadio Atlanta" },
+{ "group": "B", "home": "SUI", "away": "BIH", "date": "2026-06-18T15:00:00-04:00", "stadium": "Estadio Los Ángeles" },
+{ "group": "B", "home": "CAN", "away": "QAT", "date": "2026-06-18T18:00:00-04:00", "stadium": "Estadio BC Place Vancouver" },
+{ "group": "A", "home": "MEX", "away": "KOR", "date": "2026-06-18T21:00:00-04:00", "stadium": "Estadio Guadalajara" },
+
+{ "group": "D", "home": "USA", "away": "AUS", "date": "2026-06-19T15:00:00-04:00", "stadium": "Estadio Seattle" },
+{ "group": "C", "home": "SCO", "away": "MAR", "date": "2026-06-19T18:00:00-04:00", "stadium": "Estadio Boston" },
+{ "group": "C", "home": "BRA", "away": "HAI", "date": "2026-06-19T21:00:00-04:00", "stadium": "Estadio Filadelfia" },
+{ "group": "D", "home": "TUR", "away": "PAR", "date": "2026-06-19T00:00:00-04:00", "stadium": "Estadio Bahía de San Francisco" },
+
+{ "group": "F", "home": "NED", "away": "SWE", "date": "2026-06-20T13:00:00-04:00", "stadium": "Estadio Houston" },
+{ "group": "E", "home": "GER", "away": "CIV", "date": "2026-06-20T16:00:00-04:00", "stadium": "Estadio Toronto" },
+{ "group": "E", "home": "ECU", "away": "CUW", "date": "2026-06-20T22:00:00-04:00", "stadium": "Estadio Kansas City" },
+{ "group": "F", "home": "TUN", "away": "JAP", "date": "2026-06-20T00:00:00-04:00", "stadium": "Estadio Monterrey" },
+
+{ "group": "H", "home": "ESP", "away": "KSA", "date": "2026-06-21T12:00:00-04:00", "stadium": "Estadio Atlanta" },
+{ "group": "G", "home": "BEL", "away": "IRN", "date": "2026-06-21T15:00:00-04:00", "stadium": "Estadio Los Ángeles" },
+{ "group": "H", "home": "URU", "away": "CPV", "date": "2026-06-21T18:00:00-04:00", "stadium": "Estadio Miami" },
+{ "group": "G", "home": "NZL", "away": "EGY", "date": "2026-06-21T21:00:00-04:00", "stadium": "Estadio BC Place Vancouver" },
+
+{ "group": "J", "home": "ARG", "away": "AUT", "date": "2026-06-22T13:00:00-04:00", "stadium": "Estadio Dallas" },
+{ "group": "I", "home": "FRA", "away": "IRQ", "date": "2026-06-22T17:00:00-04:00", "stadium": "Estadio Filadelfia" },
+{ "group": "I", "home": "NOR", "away": "SEN", "date": "2026-06-22T20:00:00-04:00", "stadium": "Estadio Nueva York Nueva Jersey" },
+{ "group": "J", "home": "JOR", "away": "ALG", "date": "2026-06-22T23:00:00-04:00", "stadium": "Estadio Bahía de San Francisco Bay" },
+
+{ "group": "K", "home": "POR", "away": "UZB", "date": "2026-06-23T13:00:00-04:00", "stadium": "Estadio Houston" },
+{ "group": "L", "home": "ENG", "away": "GHA", "date": "2026-06-23T16:00:00-04:00", "stadium": "Estadio Boston" },
+{ "group": "L", "home": "PAN", "away": "CRO", "date": "2026-06-23T19:00:00-04:00", "stadium": "Estadio Toronto" },
+{ "group": "K", "home": "COL", "away": "COD", "date": "2026-06-23T22:00:00-04:00", "stadium": "Estadio Guadalajara" },
+
+{ "group": "B", "home": "SUI", "away": "CAN", "date": "2026-06-24T15:00:00-04:00", "stadium": "Estadio BC Place Vancouver" },
+{ "group": "B", "home": "BIH", "away": "QAT", "date": "2026-06-24T15:00:00-04:00", "stadium": "Estadio Seattle" },
+{ "group": "C", "home": "SCO", "away": "BRA", "date": "2026-06-24T18:00:00-04:00", "stadium": "Estadio Miami" },
+{ "group": "C", "home": "MAR", "away": "HAI", "date": "2026-06-24T18:00:00-04:00", "stadium": "Estadio Atlanta" },
+{ "group": "A", "home": "CZE", "away": "MEX", "date": "2026-06-24T21:00:00-04:00", "stadium": "Estadio Ciudad de México" },
+{ "group": "A", "home": "RSA", "away": "KOR", "date": "2026-06-24T21:00:00-04:00", "stadium": "Estadio Monterrey" },
+
+{ "group": "E", "home": "CUW", "away": "CIV", "date": "2026-06-25T16:00:00-04:00", "stadium": "Estadio Filadelfia" },
+{ "group": "E", "home": "ECU", "away": "GER", "date": "2026-06-25T16:00:00-04:00", "stadium": "Estadio Nueva York Nueva Jersey" },
+{ "group": "F", "home": "JAP", "away": "SWE", "date": "2026-06-25T19:00:00-04:00", "stadium": "Estadio Dallas" },
+{ "group": "F", "home": "TUN", "away": "NED", "date": "2026-06-25T19:00:00-04:00", "stadium": "Estadio Kansas City" },
+{ "group": "D", "home": "TUR", "away": "USA", "date": "2026-06-25T22:00:00-04:00", "stadium": "Estadio Los Ángeles" },
+{ "group": "D", "home": "PAR", "away": "AUS", "date": "2026-06-25T22:00:00-04:00", "stadium": "Estadio Bahía de San Francisco" },
+
+{ "group": "I", "home": "NOR", "away": "FRA", "date": "2026-06-26T15:00:00-04:00", "stadium": "Estadio Boston" },
+{ "group": "I", "home": "SEN", "away": "IRQ", "date": "2026-06-26T15:00:00-04:00", "stadium": "Estadio Toronto" },
+{ "group": "H", "home": "CPV", "away": "KSA", "date": "2026-06-26T20:00:00-04:00", "stadium": "Estadio Houston" },
+{ "group": "H", "home": "URU", "away": "ESP", "date": "2026-06-26T20:00:00-04:00", "stadium": "Estadio Guadalajara" },
+{ "group": "G", "home": "EGY", "away": "IRN", "date": "2026-06-26T23:00:00-04:00", "stadium": "Estadio Seattle" },
+{ "group": "G", "home": "NZL", "away": "BEL", "date": "2026-06-26T23:00:00-04:00", "stadium": "Estadio BC Place Vancouver" },
+
+{ "group": "L", "home": "PAN", "away": "ENG", "date": "2026-06-27T17:00:00-04:00", "stadium": "Estadio Nueva York Nueva Jersey" },
+{ "group": "L", "home": "CRO", "away": "GHA", "date": "2026-06-27T17:00:00-04:00", "stadium": "Estadio Filadelfia" },
+{ "group": "K", "home": "COL", "away": "POR", "date": "2026-06-27T19:30:00-04:00", "stadium": "Estadio Miami" },
+{ "group": "K", "home": "COD", "away": "UZB", "date": "2026-06-27T19:30:00-04:00", "stadium": "Estadio Atlanta" },
+{ "group": "J", "home": "ALG", "away": "AUT", "date": "2026-06-27T22:00:00-04:00", "stadium": "Estadio Kansas City" },
+{ "group": "J", "home": "JOR", "away": "ARG", "date": "2026-06-27T22:00:00-04:00", "stadium": "Estadio Dallas" }
+
+]

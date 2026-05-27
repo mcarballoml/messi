@@ -1,0 +1,42 @@
+/*
+========================================
+LAYOUT
+- estructura general de la página
+- grid principal
+- topbar
+- container
+========================================
+*/
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 16px 24px;
+  background: #0f172a;
+  border-bottom: 3px solid #334155;
+}
+
+.container {
+  padding: 24px;
+  max-width: 1400px;
+  margin: auto;
+}
+
+/* GRID principal de grupos */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+/* calendario si lo agregas al lado después */
+.calendar {
+  display: flex;
+  flex-direction: column;
+}
