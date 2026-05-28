@@ -27,6 +27,7 @@ function renderMatch(m,state) {
 
 function renderTeam(team, state) {
   const isSelected = state.selectedTeam === team;
+  const stats = state.teamStats?.[team];
 
   return `
     <div class="team" data-team="${team}">
@@ -37,7 +38,7 @@ function renderTeam(team, state) {
       />
 
       <span class="badge ${isSelected ? "active" : ""}" data-team="${team}">
-        ${team}
+        ${team} ${stats ? `(${stats.pts})` : ""}
       </span>
     </div>
   `;
@@ -49,13 +50,12 @@ export function renderGroups(state) {
 
   grid.innerHTML = "";
 
-  Object.entries(state.groups).forEach(([group, teams]) => {
+  Object.keys(state.groups).forEach((group) => {
 
-      const groupMatches =
-          state.matches.filter(m => m.group === group);
-
+      const groupMatches = state.matches.filter(m => m.group === group);
       const card = document.createElement('div');
       const isOpen = state.openGroups.has(group);
+      const teams = state.scoreTable[group];
 
       card.className = 'card';
 
@@ -63,7 +63,7 @@ export function renderGroups(state) {
       <h3>Group ${group}</h3>
 
       <div class="teams">
-          ${teams.map(team => renderTeam(team, state)).join('')}
+          ${teams.map(team => renderTeam(team.team, state)).join('')}
       </div>
 
       <div class="content ${isOpen ? "open" : ""}">
@@ -77,7 +77,6 @@ export function renderGroups(state) {
       } else {
           state.openGroups.add(group);
       }
-
       renderGroups(state);
     };
 

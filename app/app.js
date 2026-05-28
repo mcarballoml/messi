@@ -1,6 +1,7 @@
 import { state } from './state.js';
 import { loadData } from './data.service.js';
 import { renderGroups, renderCalendar } from './render.js';
+import { buildScoreTable,flattenStats } from "./utils/score.js";
 
 window.selectTeam = (team) => {
   const isSame = state.selectedTeam === team;
@@ -19,8 +20,10 @@ async function init() {
 
   state.groups = data.groups;
   state.matches = data.matches;
-  state.openGroups = new Set();
+  state.scoreTable = buildScoreTable(state.groups, state.matches);
+  state.teamStats = flattenStats(state.scoreTable);
 
+  state.openGroups = new Set();
   state.teamToGroup = {};
   for (const group in state.groups) {
     const teams = state.groups[group];
