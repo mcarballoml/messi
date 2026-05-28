@@ -1,9 +1,11 @@
 import { FLAGS } from './teams.js';
 import { formatToUserTime,getCountdown } from './utils/time.js';
 
-function renderMatch(m) {
+function renderMatch(m,state) {
+    const isActive = state.selectedTeam && (m.home === state.selectedTeam || m.away === state.selectedTeam);
+
   return `
-<div class="match-row">
+<div class="match-row ${isActive ? "active" : ""}">
   <div class="match-top">
     <span class="team home">${m.home}</span>
 
@@ -24,6 +26,25 @@ function renderMatch(m) {
   `;
 }
 
+
+function renderTeam(team, state) {
+  const isSelected = state.selectedTeam === team;
+
+  return `
+    <div class="team" data-team="${team}">
+      <img
+        class="flag ${isSelected ? "active" : ""}"
+        data-team="${team}"
+        src="https://flagcdn.com/w40/${FLAGS[team]}.png"
+      />
+
+      <span class="badge ${isSelected ? "active" : ""}" data-team="${team}">
+        ${team}
+      </span>
+    </div>
+  `;
+}
+
 export function renderGroups(state) {
 
   const grid = document.getElementById('groupsGrid');
@@ -32,33 +53,46 @@ export function renderGroups(state) {
 
   Object.entries(state.groups).forEach(([group, teams]) => {
 
-    const groupMatches =
-      state.matches.filter(m => m.group === group);
+      const groupMatches =
+          state.matches.filter(m => m.group === group);
 
-    const card = document.createElement('div');
-    card.className = 'card';
+      const card = document.createElement('div');
+      const isOpen = state.openGroups.has(group);
 
-    card.innerHTML = `
+      card.className = 'card';
+
+      card.innerHTML = `
       <h3>Group ${group}</h3>
 
       <div class="teams">
-        ${teams.map(team => `
-          <div class="team">
-            <img class="flag" src="https://flagcdn.com/w40/${FLAGS[team]}.png" />
-            <span class="badge">${team}</span>
-          </div>
-        `).join('')}
+          ${teams.map(team => renderTeam(team, state)).join('')}
       </div>
 
-      <div class="content">
-        ${groupMatches.map(renderMatch).join('')}
+      <div class="content ${isOpen ? "open" : ""}">
+        ${groupMatches.map(m => renderMatch(m, state)).join('')}
       </div>
     `;
 
     card.onclick = () => {
-      card.querySelector('.content')
-        .classList.toggle('open');
+      if (state.openGroups.has(group)) {
+          state.openGroups.delete(group);
+      } else {
+          state.openGroups.add(group);
+      }
+
+      renderGroups(state);
     };
+
+    const cardHasActive = state.selectedTeam && groupMatches.some(m => m.home === state.selectedTeam || m.away === state.selectedTeam);
+
+    card.classList.toggle("dim", state.selectedTeam && !cardHasActive);
+
+    card.querySelectorAll('.flag, .badge').forEach(el => {
+      el.addEventListener('click', (e) => {
+        e.stopPropagation();
+        selectTeam(el.dataset.team);
+      });
+    });
 
     grid.appendChild(card);
   });

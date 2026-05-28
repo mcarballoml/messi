@@ -36,6 +36,10 @@ button:hover {
   box-shadow: 6px 6px 0px #020617;
 }
 
+.card.dim {
+  opacity: 0.3;
+}
+
 .card h3 {
   margin: 0 0 12px 0;
   font-size: 16px;
@@ -61,6 +65,13 @@ button:hover {
   object-fit: cover;
   border: 2px solid #475569;
   image-rendering: pixelated;
+  cursor: pointer;
+}
+
+.flag.active {
+  outline: 2px solid #7c3aed;
+  box-shadow: 0 0 10px #7c3aed;
+  transform: scale(1.05);
 }
 
 /* BADGE */
@@ -70,8 +81,14 @@ button:hover {
   border: 3px solid #60a5fa;
   font-size: 10px;
   box-shadow: 3px 3px 0px #1e3a8a;
+  cursor: pointer;
 }
 
+.badge.active {
+  background: #7c3aed;
+  border-color: #a78bfa;
+  box-shadow: 0 0 8px #7c3aed;
+}
 /* MATCH */
 .content {
   display: none;
@@ -88,6 +105,13 @@ button:hover {
   border: 2px solid #334155;
   margin-top: 10px;
   border-radius: 8px;
+  transition: 0.2s;
+}
+
+.match-row.active {
+  transform: translateY(-4px) scale(1.02);
+  border: 2px solid #7c3aed;
+  box-shadow: 0 0 12px #7c3aed;
 }
 
 .match-top {
@@ -102,8 +126,10 @@ button:hover {
 }
 
 .team {
-  min-width: 60px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content; /* clave */
 }
 
 .score {

@@ -19,7 +19,7 @@ export function getCountdown(dateStr) {
 
   const diff = target - now;
 
-  if (diff <= 0) return null;
+  if (diff <= 0) return '';
 
   const days = Math.floor(diff / (1000 * 60 * 60 * 24));
   const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
