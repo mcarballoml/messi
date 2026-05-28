@@ -8,11 +8,9 @@ function renderMatch(m,state) {
 <div class="match-row ${isActive ? "active" : ""}">
   <div class="match-top">
     <span class="team home">${m.home}</span>
-
+    <span class="score">${m.result.home ?? "-"}</span>
     <span class="dash">-</span>
-    <span class="score">-</span>
-    <span class="dash">-</span>
-
+    <span class="score">${m.result.away ?? "-"}</span>
     <span class="team away">${m.away}</span>
   </div>
 
