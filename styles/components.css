@@ -34,6 +34,8 @@ button:hover {
   padding: 18px;
   border: 4px solid #334155;
   box-shadow: 6px 6px 0px #020617;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  will-change: transform;
 }
 
 .card.dim {
@@ -43,6 +45,11 @@ button:hover {
 .card h3 {
   margin: 0 0 12px 0;
   font-size: 16px;
+}
+
+.card:hover {
+  transform: translateY(-2px) scale(1.01);
+  box-shadow: 8px 8px 0px #020617;
 }
 
 /* TEAMS */
