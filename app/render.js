@@ -15,9 +15,8 @@ function renderMatch(m,state) {
   </div>
 
   <div class="match-bottom">
-    <span class="time">
-      ${getCountdown(formatToUserTime(m.date))}
-    </span>
+    <div class="match-countdown"> ${getCountdown(m.date)}</div>
+    <div class="match-date"> ${formatToUserTime(m.date)}</div>
   </div>
 
 </div>

@@ -132,6 +132,18 @@ button:hover {
   letter-spacing: 1px;
 }
 
+.match-countdown {
+  font-size: 12px;
+  opacity: 0.8;
+  margin-top: 4px;
+}
+
+.match-date {
+  font-size: 10px;
+  opacity: 0.5;
+  margin-top: 2px;
+}
+
 .team {
   display: flex;
   align-items: center;
