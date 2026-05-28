@@ -1,5 +1,28 @@
 import { FLAGS } from './teams.js';
-import { formatToUserTime } from './utils/time.js';
+import { formatToUserTime,getCountdown } from './utils/time.js';
+
+function renderMatch(m) {
+  return `
+<div class="match-row">
+  <div class="match-top">
+    <span class="team home">${m.home}</span>
+
+    <span class="dash">-</span>
+    <span class="score">-</span>
+    <span class="dash">-</span>
+
+    <span class="team away">${m.away}</span>
+  </div>
+
+  <div class="match-bottom">
+    <span class="time">
+      ${getCountdown(formatToUserTime(m.date))}
+    </span>
+  </div>
+
+</div>
+  `;
+}
 
 export function renderGroups(state) {
 
@@ -28,19 +51,7 @@ export function renderGroups(state) {
       </div>
 
       <div class="content">
-        ${groupMatches.map(m => `
-          <div class="match-row">
-            <div class="match-teams">
-              <span>${m.home}</span>
-              <span class="vs">vs</span>
-              <span>${m.away}</span>
-            </div>
-
-            <div class="match-time">
-              ${formatToUserTime(m.date)}
-            </div>
-          </div>
-        `).join('')}
+        ${groupMatches.map(renderMatch).join('')}
       </div>
     `;
 

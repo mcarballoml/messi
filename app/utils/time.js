@@ -13,3 +13,17 @@ export function formatToUserTime(dateString) {
   });
 }
 
+export function getCountdown(dateStr) {
+  const now = new Date();
+  const target = new Date(dateStr);
+
+  const diff = target - now;
+
+  if (diff <= 0) return null;
+
+  const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+  const mins = Math.floor((diff / (1000 * 60)) % 60);
+
+  return `${days}d ${hours}h ${mins}m`;
+}

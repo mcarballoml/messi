@@ -85,20 +85,41 @@ button:hover {
 .match-row {
   background: #0f172a;
   padding: 12px;
-  margin-top: 10px;
   border: 2px solid #334155;
+  margin-top: 10px;
+  border-radius: 8px;
 }
 
-.match-teams {
+.match-top {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
   font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
 
-.match-time {
-  font-size: 12px;
+.team {
+  min-width: 60px;
+  text-align: center;
+}
+
+.score {
+  opacity: 0.4;
+  font-size: 16px;
+}
+
+.dash {
+  opacity: 0.2;
+}
+
+.match-bottom {
+  margin-top: 6px;
+  text-align: center;
+  font-size: 11px;
   opacity: 0.7;
-  margin-top: 8px;
 }
 
 /* CALENDAR DAY */
