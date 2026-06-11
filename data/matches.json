@@ -1,5 +1,5 @@
 [
-{ "group": "A", "home": "MEX", "away": "RSA", "date": "2026-06-11T15:00:00-04:00", "stadium": "Estadio Ciudad de México" , "result": { "home": 10, "away": 0 }},
+{ "group": "A", "home": "MEX", "away": "RSA", "date": "2026-06-11T15:00:00-04:00", "stadium": "Estadio Ciudad de México" , "result": { "home": 2, "away": 0 }},
 { "group": "A", "home": "KOR", "away": "CZE", "date": "2026-06-11T22:00:00-04:00", "stadium": "Estadio Guadalajara" , "result": { "home": null, "away": null }},
 { "group": "B", "home": "CAN", "away": "BIH", "date": "2026-06-12T15:00:00-04:00", "stadium": "Estadio Toronto" , "result": { "home": null, "away": null }},
 { "group": "D", "home": "USA", "away": "PAR", "date": "2026-06-12T21:00:00-04:00", "stadium": "Estadio Los Ángeles" , "result": { "home": null, "away": null }},
