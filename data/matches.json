@@ -1,8 +1,8 @@
 [
 { "group": "A", "home": "MEX", "away": "RSA", "date": "2026-06-11T15:00:00-04:00", "stadium": "Estadio Ciudad de México" , "result": { "home": 2, "away": 0 }},
-{ "group": "A", "home": "KOR", "away": "CZE", "date": "2026-06-11T22:00:00-04:00", "stadium": "Estadio Guadalajara" , "result": { "home": null, "away": null }},
-{ "group": "B", "home": "CAN", "away": "BIH", "date": "2026-06-12T15:00:00-04:00", "stadium": "Estadio Toronto" , "result": { "home": null, "away": null }},
-{ "group": "D", "home": "USA", "away": "PAR", "date": "2026-06-12T21:00:00-04:00", "stadium": "Estadio Los Ángeles" , "result": { "home": null, "away": null }},
+{ "group": "A", "home": "KOR", "away": "CZE", "date": "2026-06-11T22:00:00-04:00", "stadium": "Estadio Guadalajara" , "result": { "home": 2, "away": 1 }},
+{ "group": "B", "home": "CAN", "away": "BIH", "date": "2026-06-12T15:00:00-04:00", "stadium": "Estadio Toronto" , "result": { "home": 1, "away": 1 }},
+{ "group": "D", "home": "USA", "away": "PAR", "date": "2026-06-12T21:00:00-04:00", "stadium": "Estadio Los Ángeles" , "result": { "home": 4, "away": 1 }},
 { "group": "B", "home": "QAT", "away": "SUI", "date": "2026-06-13T15:00:00-04:00", "stadium": "Estadio Bahía de San Francisco" , "result": { "home": null, "away": null }},
 { "group": "C", "home": "BRA", "away": "MAR", "date": "2026-06-13T18:00:00-04:00", "stadium": "Estadio Nueva York Nueva Jersey" , "result": { "home": null, "away": null }},
 { "group": "C", "home": "HAI", "away": "SCO", "date": "2026-06-13T21:00:00-04:00", "stadium": "Estadio Boston" , "result": { "home": null, "away": null }},
