@@ -31,7 +31,7 @@
 { "group": "A", "home": "CZE", "away": "RSA", "date": "2026-06-18T12:00:00-04:00", "stadium": "Estadio Atlanta" , "result": { "home": null, "away": null }},
 { "group": "B", "home": "SUI", "away": "BIH", "date": "2026-06-18T15:00:00-04:00", "stadium": "Estadio Los Ángeles" , "result": { "home": null, "away": null }},
 { "group": "B", "home": "CAN", "away": "QAT", "date": "2026-06-18T18:00:00-04:00", "stadium": "Estadio BC Place Vancouver" , "result": { "home": null, "away": null }},
-{ "group": "A", "home": "MEX", "away": "KOR", "date": "2026-06-18T21:00:00-04:00", "stadium": "Estadio Guadalajara" , "result": { "home": 2, "away": 15 }},
+{ "group": "A", "home": "MEX", "away": "KOR", "date": "2026-06-18T21:00:00-04:00", "stadium": "Estadio Guadalajara" , "result": { "home": null, "away": null }},
 
 { "group": "D", "home": "USA", "away": "AUS", "date": "2026-06-19T15:00:00-04:00", "stadium": "Estadio Seattle" , "result": { "home": null, "away": null }},
 { "group": "C", "home": "SCO", "away": "MAR", "date": "2026-06-19T18:00:00-04:00", "stadium": "Estadio Boston" , "result": { "home": null, "away": null }},
