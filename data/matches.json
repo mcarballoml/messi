@@ -8,8 +8,8 @@
 { "group": "C", "home": "HAI", "away": "SCO", "date": "2026-06-13T21:00:00-04:00", "stadium": "Estadio Boston" , "result": { "home": 0, "away": 1 }},
 { "group": "D", "home": "AUS", "away": "TUR", "date": "2026-06-13T00:00:00-04:00", "stadium": "Estadio BC Place Vancouver" , "result": { "home": 2, "away": 0 }},
 
-{ "group": "E", "home": "GER", "away": "CUW", "date": "2026-06-14T13:00:00-04:00", "stadium": "Estadio Houston" , "result": { "home": null, "away": null }},
-{ "group": "F", "home": "NED", "away": "JAP", "date": "2026-06-14T16:00:00-04:00", "stadium": "Estadio Dallas" , "result": { "home": null, "away": null }},
+{ "group": "E", "home": "GER", "away": "CUW", "date": "2026-06-14T13:00:00-04:00", "stadium": "Estadio Houston" , "result": { "home": 7, "away": 1 }},
+{ "group": "F", "home": "NED", "away": "JAP", "date": "2026-06-14T16:00:00-04:00", "stadium": "Estadio Dallas" , "result": { "home": 1, "away": 1 }},
 { "group": "E", "home": "CIV", "away": "ECU", "date": "2026-06-14T19:00:00-04:00", "stadium": "Estadio Filadelfia" , "result": { "home": null, "away": null }},
 { "group": "F", "home": "SWE", "away": "TUN", "date": "2026-06-14T22:00:00-04:00", "stadium": "Estadio Monterrey" , "result": { "home": null, "away": null }},
 
