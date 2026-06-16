@@ -13,9 +13,9 @@
 { "group": "E", "home": "CIV", "away": "ECU", "date": "2026-06-14T19:00:00-04:00", "stadium": "Estadio Filadelfia" , "result": { "home": 1, "away": 0 }},
 { "group": "F", "home": "SWE", "away": "TUN", "date": "2026-06-14T22:00:00-04:00", "stadium": "Estadio Monterrey" , "result": { "home": 5, "away": 1 }},
 
-{ "group": "H", "home": "ESP", "away": "CPV", "date": "2026-06-15T12:00:00-04:00", "stadium": "Estadio Atlanta" , "result": { "home": null, "away": null }},
-{ "group": "G", "home": "BEL", "away": "EGY", "date": "2026-06-15T15:00:00-04:00", "stadium": "Estadio Seattle" , "result": { "home": null, "away": null }},
-{ "group": "H", "home": "KSA", "away": "URU", "date": "2026-06-15T18:00:00-04:00", "stadium": "Estadio Miami" , "result": { "home": null, "away": null }},
+{ "group": "H", "home": "ESP", "away": "CPV", "date": "2026-06-15T12:00:00-04:00", "stadium": "Estadio Atlanta" , "result": { "home": 0, "away": 0 }},
+{ "group": "G", "home": "BEL", "away": "EGY", "date": "2026-06-15T15:00:00-04:00", "stadium": "Estadio Seattle" , "result": { "home": 1, "away": 1 }},
+{ "group": "H", "home": "KSA", "away": "URU", "date": "2026-06-15T18:00:00-04:00", "stadium": "Estadio Miami" , "result": { "home": 1, "away": 1 }},
 { "group": "G", "home": "IRN", "away": "NZL", "date": "2026-06-15T21:00:00-04:00", "stadium": "Estadio Los Ángeles" , "result": { "home": null, "away": null }},
 
 { "group": "I", "home": "FRA", "away": "SEN", "date": "2026-06-16T15:00:00-04:00", "stadium": "Estadio Nueva York Nueva Jersey" , "result": { "home": null, "away": null }},
